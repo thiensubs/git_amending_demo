@@ -4,8 +4,8 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.page(params[:page])
-    kđjhạkklasjdljaldjlas
+    1321837123717398137781283173971937
+    @users = User.page(params[:page]).per(2)
   end
 
   # GET /users/1
